@@ -17,6 +17,7 @@ export const AddCategory = ({ setCategories }) => {
 
     return (
         <form onSubmit={handleSubmit}>
+            <span className="hidden">{inputValue}</span>
             <input
                 type="text"
                 value={inputValue}

@@ -4,6 +4,9 @@ exports[`Tests on AddCategory component should render <AddCategory /> component 
 <form
   onSubmit={[Function]}
 >
+  <span
+    className="hidden"
+  />
   <input
     onChange={[Function]}
     type="text"
