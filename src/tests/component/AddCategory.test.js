@@ -7,7 +7,7 @@ describe('Tests on AddCategory component', () => {
     const setCategories = () => {};
     const wrapper = shallow(<AddCategory setCategories={setCategories} />);
 
-    test('should render <AddCategory /> component properly', () => {
+    test('should render <AddCategory /> properly', () => {
         expect(wrapper).toMatchSnapshot();
     });
 
