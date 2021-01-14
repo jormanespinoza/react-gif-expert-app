@@ -17,8 +17,8 @@ describe('Tests on AddCategory component', () => {
     });
 
     test('should change on input change', () => {
+        const value = 'Hola Mundo';
         const input = wrapper.find('input');
-        const value = 'Hola Mundo'
         input.simulate('change', { target: { value } });
 
         expect(wrapper.find('.hidden').text().trim()).toBe(value);
